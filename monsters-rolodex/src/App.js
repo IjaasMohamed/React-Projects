@@ -19,9 +19,6 @@ class App extends Component {
         this.setState(
           () => {
             return { monsters: users };
-          },
-          () => {
-            console.log(this.state);
           }
         )
       );
@@ -52,17 +49,7 @@ class App extends Component {
           placeholder="Search Monster"
           onChange={onSearchChange}
         />
-
-        {/* {filteredMonsters.map((monster) => {
-          return (
-            <div key={monster.id}>
-              {" "}
-              <h1>{monster.name}</h1>
-            </div>
-          );
-        })} */}
-
-        <CardList monsters = {'I am the monster'}/>
+        <CardList monsters = {filteredMonsters}/>
       </div>
     );
   }
