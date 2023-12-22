@@ -2,7 +2,7 @@ import { Component } from "react";
 
 class CardList extends Component {
   render() {
-    
+    console.log('render from cardlist');
     const { monsters } = this.props;
     return (
       <div>
@@ -11,7 +11,7 @@ class CardList extends Component {
         ))}
       </div>
     );
-  }
+  } 
 }
 
 export default CardList;
