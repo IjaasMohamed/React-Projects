@@ -1,8 +1,7 @@
 ### Monsters Rolodex 🦖👹
 
-![App Screenshot 1](screenshot1.png)
-![App Screenshot 2](screenshot2.png)
-![App Screenshot 3](screenshot3.png)
+![Screenshot 2023-12-22 103009](https://github.com/IjaasMohamed/React-Projects/assets/96341377/28687e11-fd9b-4121-8b39-4a6489492a81)
+![Screenshot 2023-12-22 103024](https://github.com/IjaasMohamed/React-Projects/assets/96341377/9997175b-463a-4d80-9439-cff993963fe1)
 
 #### Overview
 The Monsters Rolodex is a React-based web application that showcases a collection of monsters fetched from [JSONPlaceholder](https://jsonplaceholder.typicode.com/users). This project demonstrates fundamental concepts such as state management, component structure, and asynchronous data fetching.
